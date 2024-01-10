@@ -1,0 +1,30 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+@media screen and (max-width: 760px){
+    body {
+        background-color: rgb(82, 8, 151);
+    }
+
+    section#login {
+        background-color: white;
+        width: 320px;
+        height: 500px;
+        margin: auto;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    
+    div#imagem {
+        background: url(../imagens/images.jpg) no-repeat;
+        height: 190px;
+        
+    }
+    
+    
+}
